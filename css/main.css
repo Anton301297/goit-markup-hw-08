@@ -988,6 +988,7 @@ body {
 .address__list {
   padding-left: 0;
   margin: auto;
+  list-style: none;
 }
 @media screen and (max-width: 1199px) {
   .address__list {
