@@ -184,6 +184,7 @@
 	background-color: #ffffff;
 	top: 0;
 	z-index: 2;
+	overflow: scroll;
 	// padding-top: 48px;
 	padding-bottom: 48px;
 	@media screen and (min-width: 768px) {
@@ -218,9 +219,11 @@
 	display: inline-block;
 	.link {
 		display: flex;
-		padding-bottom: 32px;
 		align-items: center;
 	}
+}
+.mob-navigation__item:not(:last-child) {
+	padding-bottom: 32px;
 }
 .mob-contacts {
 	margin-top: 302px;
@@ -271,7 +274,7 @@
 		color: var(--accent-color);
 	}
 }
-.mob-contacts__item {
+.mob-contacts__item:last-child {
 	padding-bottom: 32px;
 }
 .mob-smartphon-link {
