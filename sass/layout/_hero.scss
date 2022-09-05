@@ -30,6 +30,11 @@
 				url(../img/hero-bg-mob-2x.jpg);
 		}
 	}
+	@media screen and (max-width: 1199px) {
+		padding-top: 118px;
+		padding-bottom: 118px;
+		height: 400px;
+	}
 }
 .hero__title {
 	margin-top: 0;
