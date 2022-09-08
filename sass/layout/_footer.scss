@@ -73,7 +73,7 @@
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: column;
-	align-items: center;
+
 	margin-left: auto;
 	margin-right: auto;
 	@media screen and (min-width: 1200px) {
@@ -82,6 +82,9 @@
 	@media screen and(max-width: 767px) {
 		margin: auto;
 		margin-bottom: 60px;
+	}
+	@media screen and (max-width: 1199px) {
+		align-items: center;
 	}
 }
 .soc-network {
